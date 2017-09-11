@@ -4,6 +4,39 @@ body {
 
 h1{
     color: white;
-    font-family: "Raleway";
-    font-size: 60px;
+    font-family: "Arial";
+    font-size: 80px;
+    position:absolute;
+    top:5px;
+    left:20px;
+}
+
+
+div.links{
+	font-size: 50px;
+    position:absolute;
+    top:5px;
+    right:20px;
+}
+
+div.imlink span:hover{
+    background-color: pink;
+}
+
+a:link{
+	color: white;
+    text-decoration: none;
+    font-family: "Arial";
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+	color: pink;
+}
+
+.img-circle{
+    border-radius: 50%;
 }
