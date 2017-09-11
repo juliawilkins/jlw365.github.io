@@ -15,11 +15,16 @@ h1{
 div.links{
 	font-size: 50px;
     position:absolute;
-    top:5px;
+    top:1px;
     right:20px;
 }
 
 div.imlink span:hover{
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
     background-color: pink;
 }
 
@@ -27,6 +32,11 @@ a:link{
 	color: white;
     text-decoration: none;
     font-family: "Arial";
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a:visited{
@@ -36,6 +46,8 @@ a:visited{
 a:hover{
 	color: pink;
 }
+
+
 
 .img-circle{
     border-radius: 50%;
