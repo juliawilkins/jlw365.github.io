@@ -6,11 +6,23 @@ h1{
     color: white;
     font-family: "Arial";
     font-size: 80px;
-    position:absolute;
+    position:relative;
     top:5px;
     left:20px;
 }
 
+p{
+    color: white;
+    font-family: "Arial";
+    font-size: 20px;
+    position:relative;
+    width:50%;
+    padding-left:20px;
+}
+
+p.content {
+    size:100px;
+}
 
 div.links{
 	font-size: 50px;
@@ -51,5 +63,6 @@ a:hover{
 
 
 .img-circle{
-    border-radius: 50%;
+    padding-left:20px;
+    border-radius: 60%;
 }
