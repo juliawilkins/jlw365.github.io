@@ -11,6 +11,16 @@ h1{
     left:20px;
 }
 
+h2{
+    color: white;
+    font-family: "Arial";
+    font-size: 40px;
+    font-style:italic;
+    position:relative;
+    top:90px;
+    left:10px;
+}
+
 p{
     color: white;
     font-family: "Arial";
@@ -22,6 +32,13 @@ p{
 
 p.content {
     size:100px;
+}
+
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 div.links{
@@ -41,7 +58,7 @@ div.imlink span:hover{
 }
 
 
-a:link{
+a, a:link{
 	color: white;
     text-decoration: none;
     font-family: "Arial";
