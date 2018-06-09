@@ -15,6 +15,50 @@
     projects: <b>MusiCube</b>
   </div>
 
+  <div class="project-text">
+      <b>Julia Wilkins, <a href="mailto:juliawilkins2018@u.northwestern.edu">email contact</a></b>
+      <br>
+
+      <b> Northwestern University, EECS 397: Digital Luthier, Professor Bryan Pardo </b>
+
+      <br><br>
+      <div class="project-text-headers">
+        <b>Overview</b>
+      </div>
+      MusiCube is a Max/MSP application that combines audio and visual processing to create an intriguing musical experience for any user. The core of the application is a 3D cube that contains multiple naturally bouncing balls which sound different musical notes when they collide with eachother and strike different "wall" surfaces around the cube. I have also included an interface for users to control parameters such as the pitches of the collisions, number and size of balls, and physical attributes of the balls (restitution/"bounce"), among other attributes.
+
+
+      <br><br>
+      <div class="project-text-headers">
+        <b>Motivation</b>
+      </div>
+      After spending some time previously working on a 2D "musical ball" square in C++/openFrameworks, I was interested in expanding this idea to the 3D space. Additionally, I was wanted to broaden my Max/MSP skill set (previously only Max for audio) to include Jitter, Max/MSP's library for graphics and visual processing. This is essentially a fun, visual toy for any user interested in combining and exploring audio and graphics. MusiCube could also be used as an inspirational tool for both electronic and acoustic composers alike.
+
+      <br><br>
+      <div class="project-text-headers">
+        <b>Design</b>
+      </div>
+      MusiCube is built fully using Cycling '74's Max/MSP and Jitter. The jit.phys package allows for naturally moving objects (i.e. realstic physical qualities of bouncing balls), so different elements of jit.phys were the core of the graphics portion of the code. Additionally, jit.phys allows for straightforward collision detection, which I used to dynamically detect when each ball collides with another surface. I then simply mapped these collisions to different MIDI note pitches such that they would play when each collision occured.
+
+      <br><br>
+      <div class="project-text-headers">
+        <b>Musical Interaction/UI</b>
+      </div>
+      Musical notes play whenever a ball strikes a wall of the cube or collides with another ball. Each wall is mapped to exactly one pitch, such that any ball that hits that specific wall plays that pitch. There is currently one universal pitch for any collisions between balls. Users can interact with MusiCube in many ways, both inside the actual cube and in the UI controller view. The external UI controller allows the user to change the number, color, and bounce level of balls, as well as the pitches of the walls of the cube, direction and force of gravity within the cube. The location of the partitions (shelves) within the cube can also be changed in this interface. Within the cube itself, users can drag and drop (or throw!) balls around the cube. The camera view of the cube can also be changed with simple mouse interaction.
+
+      <br><br>
+      <div class="project-text-headers">
+        <b>Takeaways/Future Plans</b>
+      </div>
+
+
+      <br><br>
+      <b>Skills Used</b>
+      <ul>
+        <li>Max/MSP, Jitter (jit.phys specifically)
+  </div>
+
+
 
 
   <div id="nav" class='links' align="right">

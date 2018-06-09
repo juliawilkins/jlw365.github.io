@@ -130,6 +130,7 @@ td{
 }
 
 .text {
+    font-family: "Arial";
   padding-left:10px;
   border-radius: 50%;
   background-color: #a3c2c2;
@@ -146,4 +147,18 @@ td{
     position:relative;
     padding-top: 20px;
     padding: 20px;
+    width: 70%;
+}
+
+.project-text{
+   color: black;
+    font-family: "Arial";
+    font-size: 16px;
+    position:relative;
+    padding-left: 20px;
+    width: 70%;
+}
+
+.project-text-headers{
+    text-decoration: underline;
 }
