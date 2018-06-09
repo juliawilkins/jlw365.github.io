@@ -116,14 +116,21 @@ a:hover{
   opacity: 0.3;
 }
 
-table{
-    padding: 20px;
-    width: 60%;
+.table-project-home{
+  width:60%;
+  padding: 20px;
 }
 
-td{
-    /*border: 15px solid black;;*/
+.table-project-img{
+  width: 10%%;
+  padding: 20px;
 }
+
+/*table{
+    padding: 20px;
+    width: 60%;
+}*/
+
 
 .container:hover .middle {
   opacity: 1;
