@@ -58,24 +58,48 @@ div.imlink span:hover{
 }
 
 
-a, a:link{
-	color: white;
-    text-decoration: none;
-    font-family: "Arial";
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+
+.nav-links a, a:link{
+  color: white;
+  text-decoration: none;
+  font-family: "Arial";
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
 }
 
-a:visited{
-    color: white;
+.nav-links a:visited{
+  color:white;
 }
 
-a:hover{
-	color: pink;
+.nav-links a:hover{
+  color:pink;
 }
+
+/*
+.text-link a, a:link{
+   color: green;
+  text-decoration: none;
+  font-family: "Arial";
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  /*float:left;*/
+/*}
+
+.text-link a:visited{
+  color:white;
+}
+
+.text-links a:hover{
+  color:green;
+}
+*/
 
 
 
@@ -126,6 +150,9 @@ a:hover{
   padding: 20px;
 }
 
+td{
+  padding: 10px;
+}
 /*table{
     padding: 20px;
     width: 60%;
@@ -169,3 +196,4 @@ a:hover{
 .project-text-headers{
     text-decoration: underline;
 }
+
