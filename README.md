@@ -1,2 +1,2 @@
-# jlw365.github.io
+# juliawilkins.github.io
 personal website in progress
